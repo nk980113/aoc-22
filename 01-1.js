@@ -2253,9 +2253,9 @@ function main() {
             .map((cal) => parseInt(cal))
             .reduce((pref, curr) => pref + curr, 0)
     );
-    console.log(Math.max(...calories)); // 69177
+    console.log(Math.max(...calories));
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 5.036ms
+console.timeEnd('');

@@ -118,9 +118,9 @@ function main() {
             return true;
         } else return false;
     }));
-    console.log(visibleGrid.flat().length); // 1807
+    console.log(visibleGrid.flat().length);
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 271.267ms
+console.timeEnd('');

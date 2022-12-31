@@ -2255,9 +2255,9 @@ function main() {
     );
     calories.sort((a, b) => b - a);
     const topThree = calories.slice(0, 3);
-    console.log(topThree.reduce((pref, curr) => pref + curr, 0)); // 207456
+    console.log(topThree.reduce((pref, curr) => pref + curr, 0));
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 6.353ms
+console.timeEnd('');

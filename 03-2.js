@@ -308,10 +308,9 @@ function main() {
         return pref;
     }, []);
     const triples = groups.map((g) => findTriple(g));
-    // console.log(triples);
     const priorityList = ' abcdefghijklmnopqrstuvwxyz' + 'abcdefghijklmnopqrstuvwxyz'.toUpperCase();
     const priorities = triples.map((b) => priorityList.indexOf(b));
-    console.log(priorities.reduce((pref, curr) => pref + curr, 0)); // 2689
+    console.log(priorities.reduce((pref, curr) => pref + curr, 0));
 }
 
 /**
@@ -338,4 +337,4 @@ function findTriple(targets) {
 
 console.time('');
 main();
-console.timeEnd(''); // 4.756ms
+console.timeEnd('');

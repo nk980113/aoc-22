@@ -1075,7 +1075,7 @@ function main() {
         }
     }
     calculateTotal(dirTree);
-    console.log(total); // 1582412
+    console.log(total);
 }
 
 /**
@@ -1161,4 +1161,4 @@ function setObjectByPath(dirTree, path, name, obj) {
 
 console.time('');
 main();
-console.timeEnd(''); // 8.008ms
+console.timeEnd('');

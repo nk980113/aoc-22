@@ -305,7 +305,7 @@ function main() {
     const boths = compartments.map((c) => findBoth(c));
     const priorityList = ' abcdefghijklmnopqrstuvwxyz' + 'abcdefghijklmnopqrstuvwxyz'.toUpperCase();
     const priorities = boths.map((b) => priorityList.indexOf(b));
-    console.log(priorities.reduce((pref, curr) => pref + curr, 0)); // 8176
+    console.log(priorities.reduce((pref, curr) => pref + curr, 0));
 }
 
 /**
@@ -332,4 +332,4 @@ function findBoth(targets) {
 
 console.time('');
 main();
-console.timeEnd(''); // 5.172ms
+console.timeEnd('');

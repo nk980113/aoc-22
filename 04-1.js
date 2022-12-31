@@ -1000,10 +1000,9 @@ const input = `75-76,18-75
 61-79,49-78`;
 
 function main() {
-    let counter = 0;
     const pairs = input.split('\n').map((p) => p.split(',').map((r) => r.split('-').map((n) => parseInt(n))));
     const filteredPairs = pairs.filter((p) => contains(p));
-    console.log(filteredPairs.length); // 496
+    console.log(filteredPairs.length);
 }
 
 /**
@@ -1026,4 +1025,4 @@ function oneWayContains(target) {
 
 console.time('');
 main();
-console.timeEnd(''); // 8.277ms
+console.timeEnd('');

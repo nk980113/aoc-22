@@ -2009,7 +2009,7 @@ function main() {
     }
     const instructions = parseInstructions(input);
     instructions.forEach((i) => runInstruction(i, state));
-    console.log(tailRecord.size); // 5710
+    console.log(tailRecord.size);
 }
 
 /**
@@ -2081,4 +2081,4 @@ function moveTail(oldHead, newHead, tail) {
 
 console.time('');
 main();
-console.timeEnd(''); // 17.965ms
+console.timeEnd('');

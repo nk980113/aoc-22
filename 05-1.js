@@ -519,7 +519,7 @@ function main() {
     const instructions = rawInstructions.split('\n').map((r) => parseInstruction(r));
     instructions.forEach((i) => runInstruction(crateStack, i));
     const result = crateStack.map((s) => s.at(-1)).join('');
-    console.log(result); // RLFNRTNFB
+    console.log(result);
 }
 
 /**
@@ -589,4 +589,4 @@ function move(amount, stacks) {
 
 console.time('');
 main();
-console.timeEnd(''); // 5.173ms
+console.timeEnd('');

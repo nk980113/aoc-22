@@ -2017,7 +2017,7 @@ function main() {
     }
     const instructions = parseInstructions(input);
     instructions.forEach((i) => runInstruction(i, state));
-    console.log(tailRecord.size); // 2259
+    console.log(tailRecord.size);
 }
 
 /**
@@ -2125,4 +2125,4 @@ function posNegUnit(target) {
 
 console.time('');
 main();
-console.timeEnd(''); // 27.481ms
+console.timeEnd('');

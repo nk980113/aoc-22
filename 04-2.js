@@ -1000,10 +1000,9 @@ const input = `75-76,18-75
 61-79,49-78`;
 
 function main() {
-    let counter = 0;
     const pairs = input.split('\n').map((p) => p.split(',').map((r) => r.split('-').map((n) => parseInt(n))));
     const filteredPairs = pairs.filter((p) => overlaps(p));
-    console.log(filteredPairs.length); // 847
+    console.log(filteredPairs.length);
 }
 
 /**
@@ -1026,4 +1025,4 @@ function oneWayOverlaps(target) {
 
 console.time('');
 main();
-console.timeEnd(''); // 8.241ms
+console.timeEnd('');

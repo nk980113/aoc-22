@@ -119,9 +119,9 @@ function main() {
         for (; down !== downMax && grid[li + down][i] < t; down++) {}
         return left * right * up * down;
     }));
-    console.log(Math.max(...scenicScores.flat())); // 480000
+    console.log(Math.max(...scenicScores.flat()));
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 10.173ms
+console.timeEnd('');

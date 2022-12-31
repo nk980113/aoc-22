@@ -6,9 +6,9 @@ function main() {
     for (; ; i++) {
         if ([...new Set(input.slice(i, i + 4))].length === 4) break;
     }
-    console.log(i + 4); // 1623
+    console.log(i + 4);
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 5.266ms
+console.timeEnd('');

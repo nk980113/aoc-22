@@ -1078,7 +1078,7 @@ function main() {
 
     const minFreeUp = dirTree.getTotalSize() - 40_000_000;
 
-    console.log(total.sort((a, b) => a - b).filter((t) => t >= minFreeUp)[0]); // 3696336
+    console.log(total.sort((a, b) => a - b).filter((t) => t >= minFreeUp)[0]);
 }
 
 /**
@@ -1164,4 +1164,4 @@ function setObjectByPath(dirTree, path, name, obj) {
 
 console.time('');
 main();
-console.timeEnd(''); // 10.807ms
+console.timeEnd('');

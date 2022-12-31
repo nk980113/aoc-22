@@ -1,5 +1,5 @@
 {
     "compilerOptions": {
-        "target": "ES2022"
+        "target": "ES2022" // to use Array.prototype.at
     }
 }

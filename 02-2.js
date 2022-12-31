@@ -2516,9 +2516,9 @@ function main() {
     };
     const rounds = input.split('\n');
     const scores = rounds.map((round) => table[round]);
-    console.log(scores.reduce((pref, curr) => pref + curr)); // 11618
+    console.log(scores.reduce((pref, curr) => pref + curr));
 }
 
 console.time('');
 main();
-console.timeEnd(''); // 4.819ms
+console.timeEnd('');
