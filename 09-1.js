@@ -2034,7 +2034,6 @@ function parseInstructions(rawInstructions) {
  * @returns {[number, number]}
  */
 function coordinates(x, y) {
-    debugger;
     if (!coordinatesTable[x]) coordinatesTable[x] = {};
     if (!coordinatesTable[x][y]) coordinatesTable[x][y] = [x, y];
     return coordinatesTable[x][y];

@@ -74,10 +74,6 @@ function main() {
         return coordinatesTable[x][y];
     }
 
-    const start = coordinates(
-        map.indexOf(map.find((l) => l.includes('S'))),
-        map.find((l) => l.includes('S')).indexOf('S'),
-    );
     const end = coordinates(
         map.indexOf(map.find((l) => l.includes('E'))),
         map.find((l) => l.includes('E')).indexOf('E'),
@@ -114,10 +110,11 @@ function main() {
     const targetPoints = [];
 
     // label root as explored
-    start.explored = true;
+    let roots = map.map((arr, x) => arr.map((_, y) => coordinates(x, y)).filter((p) => p.elevation === 0)).flat();
+    roots.forEach((r) => r.explored = true);
 
     // Q.enqueue(root)
-    targetPoints.push(start);
+    targetPoints.push(...roots);
 
     // while Q is not empty do
     while (targetPoints.length > 0) {

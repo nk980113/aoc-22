@@ -2064,7 +2064,6 @@ function coordinates(x, y) {
  * }} state 
  */
 function runInstruction(instruction, state) {
-    debugger;
     const {
         head,
         tail,
