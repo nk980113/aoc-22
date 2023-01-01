@@ -22,6 +22,7 @@ Node.js, it can solve all the problems (so far)
 |10|[Cathode-Ray Tube](https://adventofcode.com/2022/day/10)|[File](10-1.js#L142)|14560|4.402ms|
 |11|[Monkey in the Middle](https://adventofcode.com/2022/day/11)|[File](11-1.js#L57)|54036|5.909ms|
 |12|[Hill Climbing Algorithm](https://adventofcode.com/2022/day/12)|[File](12-1.js#L44)|352|17.872ms|
+|13|[Distress Signal](https://adventofcode.com/2022/day/13)|[File](13-1.js#L451)|5529|5.340ms|
 
 <hr>
 
@@ -40,3 +41,4 @@ Node.js, it can solve all the problems (so far)
 |10|[File](10-2.js#L142)|EKRHEPUZ<br>(in kinda ascii art)|4.469ms|
 |11|[File](11-2.js#L57)|13237873355|429.301ms|
 |12|[File](12-2.js#L44)|345|17.804ms|
+|13|[File](13-2.js#L451)|27690|10.447ms|
