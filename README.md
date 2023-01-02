@@ -24,6 +24,7 @@ Node.js, it can solve all the problems (so far)
 |12|[Hill Climbing Algorithm](https://adventofcode.com/2022/day/12)|[File](12-1.js#L44)|352|17.872ms|
 |13|[Distress Signal](https://adventofcode.com/2022/day/13)|[File](13-1.js#L451)|5529|5.340ms|
 |14|[Regolith Reservoir](https://adventofcode.com/2022/day/14)|[File](14-1.js#L170)|1001|24.739ms|
+|15|[Beacon Exclusion Zone](https://adventofcode.com/2022/day/15)|[File](15-1.js#L26)|5040643|1.353s|
 
 <hr>
 
@@ -44,3 +45,4 @@ Node.js, it can solve all the problems (so far)
 |12|[File](12-2.js#L44)|345|17.804ms|
 |13|[File](13-2.js#L451)|27690|10.447ms|
 |14|[File](14-2.js#L170)|27976|84.404ms|
+|15|[File](15-2.js#L27)|11016575214126|459.769ms|
